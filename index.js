@@ -8,7 +8,6 @@ import {
   addContact,
 } from "./contacts.js";
 
-// const argv = require("yargs").argv;
 const argv = yargs(hideBin(process.argv)).argv;
 
 function invokeAction({ action, id, name, email, phone }) {
